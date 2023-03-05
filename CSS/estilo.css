@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url(../IMG/bannerdebora.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.main-header {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    background-color: white;
+    margin-top: 60px;
+    height: 200px;
+}
+
+.descricao a{
+    display:inline-block}
+
+.habilidades {
+    background-color: white;
+    margin-left: 90px;
+}
+
+
+.descricao,
+.habilidades {
+    width: 40%;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes-sociais a {
+    background-color: #8c7d70;
+    width: 20%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.redes-sociais a p,h4 {color: white;}
+
+.botao {
+    border-radius: 3rem;
+    color: #8c7d70;
+    border: 2px solid #8c7d70;
+    margin-top: 20px;
+    background-color: white;
+    font-weight: bold;
+    padding: 1rem 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.redes-sociais a:visited {
+    color: black
+}
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
